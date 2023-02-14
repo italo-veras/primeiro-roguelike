@@ -27,5 +27,4 @@ public class Goblin : BaseInimigo
             transform.position = Vector3.MoveTowards(transform.position, pontoAlvo.position, velocidadeDeMovimento * Time.deltaTime);
         }
     }
-   // rua joassi sampaio ponte 391 curicaca
 }
